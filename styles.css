@@ -1,0 +1,125 @@
+/* Navbar */
+.navbar{
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.navbar a:hover{
+  background-color: black;
+  color: #FBA627;
+  border-radius: 6px;
+}
+
+.navbar a:focus{
+  background-color: black;
+  color: #FBA627;
+  border-radius: 6px;
+}
+
+.navbar a:active{
+  background-color: #FBA627;
+  color: #000000;
+  border-radius: 6px;
+  transform: scale(0.98);
+}
+
+.navbar a[aria-current="page"] {
+  background-color: #FBA627;
+  color: black;
+}
+
+/* Hamburger Button */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1000;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+/* Logo */
+.navbar img {
+  height: 100px;
+  width: auto;
+}
+
+/* Hero */
+#hero img {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+  }
+
+  #nav-menu.active {
+    display: flex;
+  }
+
+  #nav-menu li {
+    width: 100%;
+    text-align: right;
+  }
+
+  #nav-menu a {
+    display: block;
+    padding: 1rem;
+    text-align: right;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar img {
+    height: 50px;
+  }
+}

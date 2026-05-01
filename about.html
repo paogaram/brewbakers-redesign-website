@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
   <title>About Brewbakers</title>
 </head>
 
@@ -12,20 +13,26 @@
 
   <!-- Header Section -->
 <header>
-  <img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact Us</a>
+    <nav class="navbar" aria-label="Main navigation">
+    <img src="brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+<ul id="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
   </nav>
 </header>
-
 <main>
 
    <!-- Hero Section -->
   <section id="hero">
-        <img src="images/hero-image.jpg" alt="">
+        <img src="hero-image.jpg" alt="">
   </section>
   
 <!-- About Section -->
@@ -48,7 +55,7 @@
     <p>
       The Ringling Brothers circus parade is going down Main Street in front of our building.
     </p>
-    <img src="images/circus-parade.jpg" alt="Black and White Circus Parade on Main Street, Visali. circa 1903">
+    <img src="circus-parade.jpg" alt="Black and White Circus Parade on Main Street, Visali. circa 1903">
          
     <h3>1906 – Main Street Flood</h3>
     <p>
@@ -77,7 +84,7 @@
       At the heart of a growing city, Brewbakers Brewing Company is still serving savory brewpub
       classics, delicious hand-crafted brew, refreshing seltzers and good spirits.
     </p>
-    <img src="images/brewbakers-outside.jpg" alt="Exterior of Brewbakers Brewing Company in Visalia">
+    <img src="brewbakers-outside.jpg" alt="Exterior of Brewbakers Brewing Company in Visalia">
   </section>
 
   <!-- CTA Section -->
@@ -98,11 +105,11 @@
   <div class="footer-right">
 
   <a href="https://www.facebook.com/brewbakersbrewingco" target="_blank">
-    <img src="images/facebook-logo.png" alt="Facebook" class="social-icon">
+    <img src="facebook-logo.png" alt="Facebook" class="social-icon">
   </a>
 
   <a href="https://www.instagram.com/brewbakersbrewingcompany/" target="_blank">
-    <img src="images/instagram-logo.png" alt="Instagram" class="social-icon">
+    <img src="instagram-logo.png" alt="Instagram" class="social-icon">
   </a>
 
 </div>

@@ -5,18 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
   <title>Brewbakers Brewing Company</title>
 </head>
 <body>
 
   <!-- Header Section -->
 <header>
-  <img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact Us</a>
+    <nav class="navbar" aria-label="Main navigation">
+    <img src="brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+<ul id="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
   </nav>
 </header>
 
@@ -24,7 +32,7 @@
 
   <!-- Hero Section -->
   <section id="hero">
-        <img src="images/home-hero-image.jpg" alt="">
+        <img src="home-hero-image.jpg" alt="">
   </section>
 
   <section>
@@ -39,7 +47,7 @@
   <section class="featured-highlight">
     
 <div class="left">
-    <img src="images/beer-containers.jpg" alt="">
+    <img src="beer-containers.jpg" alt="">
   </div>
     
   <div class="right">
@@ -54,7 +62,8 @@
     </p>
 
     <p>Choose wisely, drink responsibly, and don’t forget to eat.</p>
-
+    
+  <!-- CTA Section -->
     <div>
       <a href="menu.html">View Menu</a>
       <a href="about.html">About Brewbakers</a>
@@ -93,11 +102,11 @@
   <div class="footer-right">
 
   <a href="https://www.facebook.com/brewbakersbrewingco" target="_blank">
-    <img src="images/facebook-logo.png" alt="Facebook" class="social-icon">
+    <img src="facebook-logo.png" alt="Facebook" class="social-icon">
   </a>
 
   <a href="https://www.instagram.com/brewbakersbrewingcompany/" target="_blank">
-    <img src="images/instagram-logo.png" alt="Instagram" class="social-icon">
+    <img src="instagram-logo.png" alt="Instagram" class="social-icon">
   </a>
 
 </div>
