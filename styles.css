@@ -54,11 +54,11 @@ background-color: black;
 /* Hamburger Button */
 .hamburger {
   display: none;
-  background: none;
-  border: 3px solid white;
+  border: none;
+  background: transparent;
   cursor: pointer;
-  padding: 8px 10px;
-  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
   position: relative;
   z-index: 1101;
 }
@@ -69,7 +69,6 @@ background-color: black;
   height: 3px;
   background-color: white;
   margin: 5px 0;
-  transition: 0.3s;
 }
 
 /* Logo */
