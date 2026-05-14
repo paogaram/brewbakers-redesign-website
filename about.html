@@ -14,8 +14,8 @@
   <!-- Header Section -->
 <header>
     <nav class="navbar" aria-label="Main navigation">
-    <img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <a href="index.html"><img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo"></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
     <span></span>
     <span></span>
     <span></span>
@@ -28,24 +28,22 @@
   </ul>
   </nav>
 </header>
+
 <main>
 
    <!-- Hero Section -->
   <section id="hero">
         <img src="images/hero-about-image.jpg" alt="">
-  </section>
-  
-<!-- About Section -->
-<!-- Title -->
-  <section class="msg-intro">
-    <h1>About Brewbakers</h1>
-    <p>
+    <h1 class="titles">About Brewbakers</h1>
+    <p class="msg-intro">
       We are Brewbakers Brewing Company, Visalia's original brewing company. We've been brewing
       savory beer and preparing delicious meals for Visalia since 1999. We are located in the
       heart of Visalia on Main Street, and our brewpub occupies the site where Visalia's first
       beer gardens once stood in the early 1900s.
     </p>
   </section>
+
+<hr class="section-divider">
 
   <!-- History Section -->
   <section class="history">
@@ -87,11 +85,16 @@
     <img src="images/brewbakers-outside.jpg" class="about-img" alt="Exterior of Brewbakers Brewing Company in Visalia">
   </section>
 
-  <!-- CTA Section -->
-  <section class="about-btn">
-    <a href="menu.html" class="btn-primary">View Menu</a>
-    <a href="https://maps.app.goo.gl/VZdfDMtNUPQfscGPA" target="_blank" class="btn-secondary">Take a Virtual Tour of Brewbakers</a>
-  </section>
+<!-- CTA Section -->
+<section class="about-btn">
+  <button class="btn-primary" onclick="window.location.href='menu.html'">
+    View Menu
+  </button>
+
+  <button class="btn-secondary" onclick="window.open('https://maps.app.goo.gl/VZdfDMtNUPQfscGPA', '_blank')">
+    Take a Virtual Tour of Brewbakers
+  </button>
+</section>
 
 </main>
 

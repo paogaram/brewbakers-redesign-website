@@ -14,8 +14,8 @@
   <!-- Header Section -->
 <header>
     <nav class="navbar" aria-label="Main navigation">
-    <img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <a href="index.html"><img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo"></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
     <span></span>
     <span></span>
     <span></span>
@@ -34,11 +34,8 @@
    <!-- Hero Section -->
   <section id="hero">
         <img src="images/hero-contact-image.jpg" alt="">
-  </section>
-  
-<section class="msg-intro">
-  <h1>Contact Us</h1>
-  <p>Send a message. We'd love to hear what you have to say.</p>
+  <h1 class="titles">Contact Us</h1>
+  <p class="msg-intro">Send a message. We'd love to hear what you have to say.</p>
 </section>
 
 <hr class="section-divider">
@@ -82,11 +79,13 @@
       Fri & Sat: 11am - 10pm
     </p>
     
-    <div class="map-button">
-    <a href="https://maps.app.goo.gl/4m9BrYYoxJE4xrjR8" target="_blank" class="btn-secondary">
-      Map It
-    </a>
-  </div>
+<div class="map-button">
+  <button 
+    class="btn-secondary"
+    onclick="window.open('https://maps.app.goo.gl/4m9BrYYoxJE4xrjR8', '_blank')">
+    Map It
+  </button>
+</div>
     
   </div>
 

@@ -8,13 +8,14 @@
   <script src="script.js" defer></script>
   <title>Brewbakers Brewing Company</title>
 </head>
+
 <body>
 
   <!-- Header Section -->
 <header>
     <nav class="navbar" aria-label="Main navigation">
-    <img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <a href="index.html"><img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo"></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
     <span></span>
     <span></span>
     <span></span>
@@ -63,12 +64,16 @@
 
     <p>Choose wisely, drink responsibly, and don’t forget to eat.</p>
     
-  <!-- CTA Section -->
-    <div>
-      <a href="menu.html" class="btn-primary">View Menu</a>
-      <a href="about.html" class="btn-secondary">About Brewbakers</a>
-    </div>
-  </div>
+<!-- CTA Section -->
+<div>
+  <button class="btn-primary" onclick="window.location.href='menu.html'">
+    View Menu
+  </button>
+
+  <button class="btn-secondary" onclick="window.location.href='about.html'">
+    About Brewbakers
+  </button>
+</div>
 
 </section>
 

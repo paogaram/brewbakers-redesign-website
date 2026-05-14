@@ -14,8 +14,8 @@
   <!-- Header Section -->
 <header>
     <nav class="navbar" aria-label="Main navigation">
-    <img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo">
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <a href="index.html"><img src="images/brewbakers-logo.png" alt="Brewbakers Brewing Company logo"></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
     <span></span>
     <span></span>
     <span></span>
@@ -30,14 +30,12 @@
 </header>
 
 <main>
+  
   <!-- Hero Section -->
   <section id="hero">
         <img src="images/menu-hero-image.jpg" alt="">
-  </section>
-  
-  <section class="msg-intro">
-    <h1>Our Menu</h1>
-    <p>
+            <h1 class="titles">Our Menu</h1>
+    <p class="msg-intro">
       We serve some of the freshest brewpub classics around. We also make awesome personal pizzas,
       burgers, and more. Contact us to place an order or come in and enjoy your food at Visalia's
       original brewing company.
@@ -113,12 +111,16 @@
   </section>
 </div>
 
-  <!-- CTA Section -->
-  <div class="cta-buttons">
-    <a href="tel:5596272739" class="btn-primary">Call to Order: 559-627-BREW</a>
-    <a href="https://maps.app.goo.gl/4m9BrYYoxJE4xrjR8" target="_blank" class="btn-secondary">Map It</a>
-  </div>
+<!-- CTA Section -->
+<div class="cta-buttons">
+  <button class="btn-primary" onclick="window.location.href='tel:5596272739'">
+    Call to Order: 559-627-BREW
+  </button>
 
+  <button class="btn-secondary" onclick="window.open('https://maps.app.goo.gl/4m9BrYYoxJE4xrjR8', '_blank')">
+    Map It
+  </button>
+</div>
 
 </main>
 
