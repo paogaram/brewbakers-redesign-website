@@ -31,7 +31,7 @@ Brewbakers is a brewpub-style restaurant serving burgers, pizzas, and craft beer
 ![Menu Screenshot](images/ssmenu.png)
 
 ### About Page
-![Aboutt Page Screenshot](images/ssabout.png)
+![About Page Screenshot](images/ssabout.png)
 
 ### Contact Page
 ![Contact Page Screenshot](images/sscontact.png)
