@@ -58,7 +58,6 @@ background-color: black;
   background: transparent;
   cursor: pointer;
   padding: 10px;
-  cursor: pointer;
   position: relative;
   z-index: 1101;
 }
