@@ -7,7 +7,7 @@ Brewbakers Website Redesign
 Brewbakers is a brewpub-style restaurant serving burgers, pizzas, and craft beer in a casual dining atmosphere. This project is a modern redesign of their website to improve usability, responsiveness, and overall visual appeal.
 
 ## Live Site
-(https://your-github-username.github.io/brewbakers-redesign/](https://paogaram.github.io/brewbakers-redesign-website/index.html)
+[View Live Website](https://your-github-username.github.io/brewbakers-redesign/](https://paogaram.github.io/brewbakers-redesign-website/index.html)
 
 ## Technologies Used
 - HTML5  
