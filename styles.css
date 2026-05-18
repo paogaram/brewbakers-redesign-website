@@ -467,11 +467,15 @@ h3 {
   }
 
   .tagline {
-    font-size: 40px;
+    font-size: 30px;
     white-space: normal;
     top: 0%;
   }
 
+  .welcome-msg{
+    font-size: 28px;
+  }
+  
   h2 {
     font-size: 28px;
     text-align: center;
